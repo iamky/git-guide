@@ -105,14 +105,26 @@ git clone ssh-url (Use SSH url not the HTTP Adds.git folder and Adds Remote)
 //SUMMARY
 
 git init
+
 git clone ssh-url
+
 git add filename.txt
+
 git add .
+
 git commit -m "MESSAGE GOES HERE"
+
 git push
+
 git checkout -b BRANCH_NAME
+
 git push --set-upstream origin BRANCH_NAME
+
 git checkout master
+
 git status
+
 git merge
+
 git pull
+
